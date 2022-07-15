@@ -11,6 +11,10 @@ Clicking the button is equivalent to setting `Glyphs.font.snapToObjects` in case
 1. One-click install *Snapper* from *Window > Plugin Manager > Plugins*
 2. Restart Glyphs.
 
+### System Requirements
+
+The plug-in requires any version of Glyphs&nbsp;3, and at least macOS&nbsp;10.15.
+
 ### License
 
 Copyright 2022 Rainer Erich Scheichelbauer (@mekkablue).
