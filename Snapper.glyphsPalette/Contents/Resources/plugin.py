@@ -41,10 +41,9 @@ class Snapper (PalettePlugin):
 
 	@objc.python_method
 	def update(self, sender):
-		# Extract font from sender
-		currentTab = sender.object()
-		if currentTab:
-			font = currentTab.parent
+		windowController = self.windowController()
+		if windowController:
+			font = windowController.document().font
 			if font and isinstance(font, GSFont):
 				self.snapSwitch.setState_(font.snapToObjects) 
 	
